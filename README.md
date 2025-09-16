@@ -5,12 +5,26 @@ Repo này được dùng để lưu trữ **thông tin cài đặt**, **file con
 ## 📂 Cấu trúc thư mục
 
 homelab/
-│── docs/ # Tài liệu, hướng dẫn cài đặt
-│── configs/ # File config (nginx, proxmox, docker…)
-│── flows/ # Sơ đồ mạng, topology VM/LXC
-│── scripts/ # Script hỗ trợ (backup, deploy…)
-└── README.md # Giới thiệu repo
-
+│── docs/                # Tài liệu, ghi chú, hướng dẫn cài đặt
+│   ├── network.md
+│   ├── proxmox_setup.md
+│   └── docker_notes.md
+│
+│── configs/             # File config của dịch vụ, máy ảo, container
+│   ├── nginx/
+│   │   └── nginx.conf
+│   ├── traefik/
+│   └── proxmox/
+│
+│── flows/               # Lưu các sơ đồ, luồng hoạt động
+│   ├── network_flow.drawio
+│   └── vm_topology.png
+│
+│── scripts/             # Script tự động hóa (bash, ansible, terraform…)
+│   ├── backup.sh
+│   └── deploy_docker.sh
+│
+└── README.md            # Giới thiệu chung repo
 
 ## 📑 Nội dung
 
