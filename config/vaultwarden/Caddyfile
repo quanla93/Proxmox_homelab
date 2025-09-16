@@ -1,0 +1,4 @@
+quanla-vault.tail630429.ts.net {
+  reverse_proxy vaultwarden:80
+  tls /etc/caddy/certs/quanla-vault.tail630429.ts.net.crt /etc/caddy/certs/quanla-vault.tail630429.ts.net.key
+}
