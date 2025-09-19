@@ -1,0 +1,5 @@
+vault-server.tail630429.ts.net {
+    tls /etc/caddy/certs/vault.crt /etc/caddy/certs/vault.key
+
+    reverse_proxy vaultwarden:80
+}

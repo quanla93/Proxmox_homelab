@@ -1,0 +1,2 @@
+echo "mySuperSecretPassphrase" > /root/.vault_backup_pass
+chmod 600 /root/.vault_backup_pass
